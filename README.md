@@ -10,6 +10,8 @@ This project uses machine learning to classify Iris flowers into three species b
 
 The project is developed using Python and the Scikit-learn machine learning library. It is intended to demonstrate the basic workflow of a supervised machine learning classification problem.
 
+End-to-end ML example from Digital Marketing Mastery Module -> builds a decision-tree classifier on the classic Iris dataset using scikit-learn
+
 ## 2. Project Objectives
 
 The objectives of this project are to:
@@ -67,25 +69,34 @@ The project follows these steps:
 
 ## 6. Results and Evaluation
 
-**Model used:** [Enter model name.]
+**Model used:** [model=DecisionTreeClassifier(random_state=42)]
 
-**Test accuracy:** [Enter your measured accuracy.]
+**Test accuracy:** [1.0]
 
-**Confusion matrix:** [Insert your confusion matrix or describe its results.]
+**Confusion matrix:** 
+[[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
 
 The model's performance is evaluated by comparing its predictions with the actual flower species in the test dataset.
 
 ## 7. Project Structure
 
-Example project structure:
+Folder PATH listing for volume Windows
+Volume serial number is 0298-23B4
+C:.
+|   project_tree.txt
+|   
+\---Project01-Iris_Data_Set_RP-Oct2026
+        .gitattributes
+        .gitignore
+        Iris-classifer Project RP.ipynb
+        LICENSE
+        README.md
+        README_private.md
+        requirements.txt
+        
 
-```text
-IrisProject/
-├── README.md
-├── .gitignore
-├── iris.ipynb
-└── iris.py
-```
 
 The actual files may differ depending on how the project is organised.
 
